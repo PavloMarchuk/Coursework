@@ -9,7 +9,8 @@ namespace C_Sharp
 	{
 	class Sprite
 		{
-		//List<string> sprite;
+		
+//
 		//ArrayList<ArrayList<int>> sprite;
 		//ArrayList < ArrayList<int >> ss; 
 		List<List<int>> sprite;
