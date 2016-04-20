@@ -1,71 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace C_Sharp
-	{
-	class MAN
-		{
-
-
-		public static void Draw(int x_, int y_)
-			{
-			Console.BackgroundColor = 0;
-			//y_ = Console.CursorTop;
-			//x_ = Console.CursorLeft;
-			for (int i = 0; i < 16; i++)
-				{
-				
-
-				Console.CursorTop = y_ + 1;
-				Console.CursorLeft = x_ + 11;
-				Console.BackgroundColor = 0;
-				Console.Write("  ");
-
-				Console.CursorTop = y_ + 2;
-				Console.CursorLeft = x_ + 10;
-				Console.Write("    ");
-
-				Console.CursorTop = y_ + 3;
-				Console.CursorLeft = x_ + 10;
-				Console.Write("    ");
-
-				Console.CursorTop = y_ + 4;
-				Console.CursorLeft = x_ + 10;
-				Console.Write("   ");
-
-				Console.CursorTop = y_ + 5;
-				Console.CursorLeft = x_ + 11;
-				Console.Write("  ");
-
-
-
-				Console.CursorTop = y_ + 6;
-				Console.CursorLeft = x_ + 3;
-				Console.Write(" ");
-				Console.CursorLeft = x_ + 7;
-				Console.Write("       ");
-
-
-
-
-
-
-
-
-
-
-				Console.WriteLine("\n\n\n\n");
-				}
-
-
-			}
-
-		}
-	}
-//ForegroundColor
-//BackgroundColor
-//CursorLeft
-//CursorTop
+﻿////	1,2,3,4,5,6,7,8,9,0,1,2,3,4,5,6
+//{	3,3,3,0,0,0,0,0,0,0,3,3,3,3,3,3},
+//{	3,3,0,0,7,7,8,5,8,7,0,3,3,3,3,3},
+//{	3,3,0,7,7,8,8,5,8,7,0,3,3,3,3,3},
+//{	3,3,0,7,7,7,7,8,7,8,7,0,3,3,3,3},
+//{	3,3,0,7,7,8,5,5,8,7,0,0,3,3,3,3},
+//{	3,3,0,7,7,0,0,0,0,0,0,3,3,3,3,3},
+//{	3,3,3,0,0,0,0,0,0,6,0,3,3,3,3,3},
+//{	3,3,0,7,8,7,6,6,6,0,3,3,0,3,3,3},
+//{	3,3,0,8,5,8,7,6,7,7,0,3,0,0,3,3},
+//{	3,0,7,5,8,8,7,7,8,5,7,0,7,5,0,3},
+//{	3,0,0,5,8,7,7,8,8,7,6,7,0,0,0,3},
+//{	3,0,0,7,5,5,5,7,0,0,0,0,3,3,3,3},
+//{	3,0,0,7,7,0,7,8,0,0,0,0,3,3,3,3},
+//{	3,8,0,0,0,0,8,8,6,0,0,8,3,3,3,3},
+//{	3,3,3,8,0,0,0,0,0,0,8,3,3,3,3,3},
+//{	3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3};
